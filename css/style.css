@@ -72,7 +72,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 84px;
+  height: 100px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -90,7 +90,7 @@ nav {
 }
 
 .nav-logo img {
-  height: 68px;
+  height: 84px;
   width: auto;
   display: block;
 }
@@ -321,7 +321,7 @@ nav {
 .about-img {
   background: var(--taupe-light);
   min-height: 260px;
-  max-height: 420px;
+  max-height: 340px;
 }
 
 .about-text {
