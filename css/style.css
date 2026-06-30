@@ -330,6 +330,12 @@ nav {
 
 .about-img {
   background: var(--taupe-light);
+  min-height: 260px;
+  max-height: 380px;
+}
+
+.about-img-portrait {
+  background: var(--taupe-light);
   aspect-ratio: 4 / 5;
   min-height: 260px;
   max-height: 380px;
@@ -781,6 +787,7 @@ footer {
 
   .hero-image,
   .about-img,
+  .about-img-portrait,
   .rooted-image {
     min-height: 240px;
     max-width: none;
