@@ -589,6 +589,17 @@ nav {
   text-align: center;
 }
 
+a.cta-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s ease;
+}
+
+a.cta-card:hover {
+  box-shadow: 0 4px 12px rgba(61, 46, 34, 0.1);
+}
+
 .cta-card-icon {
   font-size: 20px;
   color: var(--gold);
