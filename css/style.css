@@ -31,6 +31,48 @@ body {
   line-height: 1.5;
 }
 
+/* Centering wrapper for all content sections */
+.hero,
+.intro-strip,
+.about-section,
+.services-section,
+.rooted-section,
+.testimonial-strip,
+.cta-section,
+.page-header,
+footer,
+.footer-bottom,
+.tier-detail,
+.contact-section,
+.policy-content,
+.testimonial-grid {
+  /* sections are full bleed but content is constrained */
+}
+
+.hero-text,
+.about-text,
+.services-header,
+.rooted-text,
+.cta-text,
+.page-header,
+nav {
+  /* individual padding already handles this */
+}
+
+/* Global max-width content constraint */
+nav > *,
+.hero,
+.about-section,
+.rooted-section,
+.cta-section {
+  /* allow grids to use max width */
+}
+
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -68,7 +110,7 @@ a {
 nav {
   background: var(--white);
   border-bottom: 1px solid var(--terra-light);
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,6 +118,14 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+  max-width: 100%;
+}
+
+nav .nav-logo,
+nav .nav-links,
+nav .nav-cta,
+nav .nav-toggle {
+  /* keep spread within nav */
 }
 
 .nav-logo {
@@ -250,10 +300,11 @@ nav {
 }
 
 .hero-text {
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 560px;
 }
 
 .hero-eyebrow {
@@ -345,7 +396,7 @@ nav {
 }
 
 .about-text {
-  padding: 2.5rem;
+  padding: 2.5rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -389,7 +440,15 @@ nav {
    ============================================ */
 .services-section {
   background: var(--cream);
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem 3rem;
+  max-width: 100%;
+}
+
+.services-section .services-header,
+.services-section .services-grid {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-header {
