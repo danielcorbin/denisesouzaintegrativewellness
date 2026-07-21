@@ -294,13 +294,15 @@ nav .nav-toggle {
    ============================================ */
 
 .hero-centered {
-  display: flex;
+  display: flex !important;
+  grid-template-columns: none;
   align-items: center;
   justify-content: center;
   text-align: center;
   min-height: 480px;
   position: relative;
   padding: 0;
+  background-color: var(--charcoal);
 }
 
 .hero-overlay {
@@ -316,11 +318,13 @@ nav .nav-toggle {
   max-width: 640px;
   width: 100%;
   margin: 0 auto;
-  padding: 3.5rem 2rem;
+  padding: 3.5rem 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background: rgba(61, 46, 34, 0.22);
+  border-radius: 4px;
 }
 
 .hero-centered .hero-eyebrow {
