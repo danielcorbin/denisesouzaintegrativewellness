@@ -323,29 +323,30 @@ nav .nav-toggle {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: rgba(61, 46, 34, 0.22);
-  border-radius: 4px;
+  background: rgba(255, 250, 244, 0.82);
+  border-radius: 6px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
 }
 
 .hero-centered .hero-eyebrow {
-  color: var(--terra-light);
+  color: var(--terra);
   text-align: center;
   margin-bottom: 0.75rem;
 }
 
 .hero-centered h1 {
-  color: var(--cream);
+  color: var(--charcoal);
   font-size: 34px;
   margin-bottom: 1rem;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: none;
 }
 
 .hero-centered p {
-  color: var(--cream);
-  opacity: 0.92;
+  color: var(--taupe-dark);
+  opacity: 1;
   max-width: 520px;
   margin: 0 auto 1.5rem;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  text-shadow: none;
 }
 
 .hero-centered .hero-btns {
@@ -353,15 +354,14 @@ nav .nav-toggle {
 }
 
 .hero-centered .hero-logo {
-  height: 90px;
+  height: 180px;
   width: auto;
   margin: 0 auto 1.25rem;
-  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
 }
 
 .hero-centered .btn-outline {
-  border-color: var(--cream);
-  color: var(--cream);
+  border-color: var(--terra);
+  color: var(--terra);
 }
 .hero {
   background: var(--sage);
