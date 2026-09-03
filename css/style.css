@@ -558,6 +558,19 @@ nav .nav-toggle {
 
 .service-card-img {
   height: 170px;
+  overflow: hidden;
+}
+
+.service-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-sensitivity-img img {
+  object-fit: contain;
+  background: #1a5c2a;
 }
 
 .service-card-body {
