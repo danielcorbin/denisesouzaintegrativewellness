@@ -371,7 +371,7 @@ nav .nav-toggle {
 
 .hero.hero-centered {
   background-color: #2a1a0e;
-  background-image: url('images/hero-bg.jpg');
+  background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
