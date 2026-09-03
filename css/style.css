@@ -356,7 +356,20 @@ nav .nav-toggle {
   height: 180px;
   width: auto;
   margin: 0 auto 1.25rem;
-  filter: drop-shadow(0 0 18px rgba(255,255,255,0.85)) drop-shadow(0 0 8px rgba(255,255,255,0.9));
+}
+
+.hero-logo-wrap {
+  background: rgba(255, 250, 244, 0.88);
+  border-radius: 12px;
+  padding: 12px 20px;
+  display: inline-block;
+  margin: 0 auto 1.25rem;
+}
+
+.hero-logo-wrap img {
+  height: 180px;
+  width: auto;
+  display: block;
 }
 
 .hero-centered .btn-outline {
