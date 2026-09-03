@@ -14,12 +14,21 @@
     <a href="index.html" class="nav-logo">
       <img src="images/denise-souza-logo.png" alt="Denise Souza Integrative Wellness" onerror="this.outerHTML='<span class=&quot;nav-logo-text&quot;>Denise Souza<span>Integrative Wellness</span></span>'">
     </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html" class="active">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="rooted-renewal.html">Rooted Renewal</a></li>
-      <li><a href="thermography.html">Thermography</a></li>
+      <li class="has-dropdown">
+        <a href="services.html">Services</a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html">All Services</a></li>
+          <li><a href="rooted-renewal.html">Rooted Renewal</a></li>
+          <li><a href="thermography.html">Thermography</a></li>
+          <li><a href="ao-scan.html">AO Scan</a></li>
+          <li><a href="services.html#food-sensitivity">Food Sensitivity Testing</a></li>
+          <li><a href="blood-cell-analysis.html">Blood Cell Analysis</a></li>
+        </ul>
+      </li>
       <li><a href="testimonials.html">Testimonials</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -35,18 +44,20 @@
 
   <!-- MAIN BIO -->
   <section class="about-section">
-    <div class="about-img placeholder-img"><img src="images/denise-headshot.jpg" alt="Denise Souza" onerror="this.parentElement.innerHTML='[ Photo: Denise, headshot ]'"></div>
+    <div class="about-img-portrait placeholder-img"><img src="images/denise-headshot.jpg" alt="Denise Souza" onerror="this.parentElement.innerHTML='[ Photo: Denise, headshot ]'"></div>
     <div class="about-text">
       <div class="section-label">My story</div>
       <h2>Wellness found me before I found it.</h2>
-      <p>My own path into holistic health started in the late 1980s with a Gilbert Syndrome diagnosis, followed by my children's food sensitivities. Conventional answers fell short, so I went looking for better ones. That search became a career.</p>
-      <p>Today I hold a Master's with High Honors in Holistic Nutrition and a Bachelor's in Psychology, and I'm a Certified Thermography Specialist, LEAP Trained Therapist, and Quantum Living Associate. But the credentials are tools, not the point. The point is helping you understand what your body is telling you.</p>
+      <p>Denise is an overall wellness strategist drawing from over 20 years of professional experience while incorporating personal experience and triumphs over Lyme Disease, Breast Implant Illness, and CIRS (mold illness). She is a Quantum Living Advocate offering Bioresonance Therapy and Frequency Scanning. As a Certified Thermography Specialist, she strives to raise awareness regarding early detection for both men and women. She holds a Masters with High Honors in Holistic Nutrition and a Bachelor of Arts in Psychology. As a Colon Hydrotherapist she is certified by the International Association for Colon Hydrotherapy. She is a LEAP trained therapist through Oxford Biomedical Technologies. She also authored the wellness based cookbook, To Our Health.</p>
+      <p>That search for non-traditional solutions became a quest for knowledge and understanding, combined with my passion to teach and share my knowledge, culminated into fulfilling my purpose, passion and leading to establishing a career. I believe God created the body to heal itself when given the right circumstances. I embrace the simplicity of healing and allowing the body to heal itself according to Divine design. My philosophy aligns with the simplicity yet, magnificence found in nature.</p>
+      <p><em>"All that man needs for health and healing has been provided by God in nature, the challenge of science is to find it. Science should back up and explain what God has provided rather than trying to duplicate it or alter it for profit."</em><br><small style="font-family: Arial, sans-serif; font-size: 11px; color: var(--taupe);">— Philippus Theophrastus Bombast that of Aureolus Paracelsus (1493&ndash;1541)</small></p>
       <div class="cred-row">
         <span class="cred-pill">MS Holistic Nutrition</span>
         <span class="cred-pill">BA Psychology</span>
         <span class="cred-pill">Certified Thermography</span>
         <span class="cred-pill">LEAP Trained</span>
-        <span class="cred-pill">Quantum Living Associate</span>
+        <span class="cred-pill">Certified Colon Hydrotherapist</span>
+        <span class="cred-pill">Quantum Living Advocate</span>
       </div>
     </div>
   </section>
@@ -54,12 +65,14 @@
   <!-- OFFICE / PERSONAL -->
   <section class="about-section">
     <div class="about-text">
-      <div class="section-label">Outside the practice</div>
-      <h2>Raleigh has been home since 2006.</h2>
-      <p>My husband Jerry and I moved here from Massachusetts, drawn by the outdoors and the long summer days. That same love of nature shapes how I think about healing: nothing forced, nothing rushed, just the right conditions for the body to do what it already knows how to do.</p>
-      <p>When I'm working with a client, my goal is simple: teach you enough about your own body that you leave more confident, not more dependent.</p>
+      <div class="section-label">My philosophy</div>
+      <h2>The soil beneath the tree.</h2>
+      <p>My philosophy of wellness reflects the simplicity and magnificence found in nature. I see the human experience much like a tree: what becomes visible above the surface is deeply influenced by the environment that nourishes it below.</p>
+      <p>In our lives, the soil represents everything that impacts our wellness and quality of living. The physical, emotional and spiritual dimensions of our lives is our soil. When this inner environment is supported and replenished, it provides a stronger foundation from which the whole person can thrive.</p>
+      <p>This is why my approach looks beyond what is most visible. Rather than tending only to the leaves, the branches, or even the roots, I seek to understand and nourish the soil beneath them. By supporting the physical, emotional, and spiritual foundations of wellness, we cultivate the conditions for greater balance, resilience, and lasting growth.</p>
+      <p><em>True wellness is not found by tending to one part of the tree. It begins by nourishing the soil from which the whole person grows and thrives.</em></p>
     </div>
-    <div class="about-img placeholder-img"><img src="images/denise-office.jpg" alt="Denise in her office" onerror="this.parentElement.innerHTML='[ Photo: Denise in office ]'"></div>
+    <div class="about-img" style="background: var(--cream); display: flex; align-items: center; justify-content: center; overflow: hidden;"><img src="images/wellness.jpg" alt="Wellness" style="width: 100%; height: 100%; object-fit: contain; object-position: center;" onerror="this.parentElement.innerHTML='[ Photo: Wellness ]'"></div>
   </section>
 
   <!-- CTA -->
@@ -74,23 +87,23 @@
       <div class="cta-card">
         <div class="cta-card-icon">&#128205;</div>
         <h4>Location</h4>
-        <p>Raleigh, NC</p>
+        <p>6837 Falls of Neuse Rd<br>Ste 106, Raleigh, NC 27615</p>
       </div>
       <div class="cta-card">
         <div class="cta-card-icon">&#128222;</div>
         <h4>Phone</h4>
-        <p>Call to book</p>
+        <p><a href="tel:9196008840" style="color: inherit; text-decoration: underline;">919-600-8840</a></p>
       </div>
       <div class="cta-card">
         <div class="cta-card-icon">&#128337;</div>
         <h4>Free consult</h4>
         <p>15 min, new clients</p>
       </div>
-      <div class="cta-card">
+      <a class="cta-card" href="forms/new-client-forms.pdf" target="_blank" rel="noopener">
         <div class="cta-card-icon">&#128196;</div>
         <h4>New client forms</h4>
         <p>Download before your visit</p>
-      </div>
+      </a>
     </div>
   </section>
 
@@ -107,14 +120,16 @@
       <a href="services.html">Services</a>
       <a href="rooted-renewal.html">Rooted Renewal</a>
       <a href="thermography.html">Thermography</a>
+      <a href="ao-scan.html">AO Scan</a>
+      <a href="blood-cell-analysis.html">Blood Cell Analysis</a>
       <a href="testimonials.html">Testimonials</a>
       <a href="contact.html">Contact</a>
     </div>
     <div class="footer-col">
       <h4>Connect</h4>
       <a href="contact.html">Free 15-min Consultation</a>
-      <a href="contact.html">New Client Forms</a>
-      <a href="contact.html">Join Mailing List</a>
+      <a href="forms/new-client-forms.pdf" target="_blank" rel="noopener">New Client Forms</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
     </div>
   </footer>
   <div class="footer-bottom">
@@ -122,5 +137,28 @@
     <span class="disclaimer">Not intended to diagnose, treat, cure, or prevent any disease. Statements not evaluated by the FDA.</span>
   </div>
 
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var navLinks = document.querySelector('.nav-links');
+      if (toggle && navLinks) {
+        toggle.addEventListener('click', function () {
+          var isOpen = navLinks.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+      }
+
+      var dropdownParent = document.querySelector('.has-dropdown');
+      if (dropdownParent) {
+        var dropdownLink = dropdownParent.querySelector('a');
+        dropdownLink.addEventListener('click', function (e) {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            dropdownParent.classList.toggle('open');
+          }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
