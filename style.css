@@ -302,13 +302,12 @@ nav .nav-toggle {
   min-height: 480px;
   position: relative;
   padding: 0;
-  background-color: var(--charcoal);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(61, 46, 34, 0.38);
+  background: rgba(61, 46, 34, 0.20);
   z-index: 1;
 }
 
@@ -853,14 +852,11 @@ footer {
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
-  .hero-overlay {
-    background: rgba(61, 46, 34, 0.18);
-  }
-
-  .hero-centered {
-    min-height: 400px;
-    background-size: cover;
-    background-position: center center;
+  .hero-text-centered {
+    background: rgba(255, 250, 244, 0.72);
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+    width: calc(100% - 2rem);
   }
 
   nav {
