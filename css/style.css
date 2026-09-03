@@ -302,13 +302,12 @@ nav .nav-toggle {
   min-height: 480px;
   position: relative;
   padding: 0;
-  background-color: var(--charcoal);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(61, 46, 34, 0.38);
+  background: rgba(61, 46, 34, 0.20);
   z-index: 1;
 }
 
@@ -368,6 +367,14 @@ nav .nav-toggle {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 320px;
+}
+
+.hero.hero-centered {
+  background-color: #2a1a0e;
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .hero-text {
@@ -853,6 +860,34 @@ footer {
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
+  .hero-text-centered {
+    background: transparent;
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    box-shadow: none;
+  }
+
+  .hero-centered h1 {
+    color: var(--cream);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  }
+
+  .hero-centered p {
+    color: var(--cream);
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  }
+
+  .hero-centered .hero-eyebrow {
+    color: var(--terra-light);
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  }
+
+  .hero-centered .btn-outline {
+    border-color: var(--cream);
+    color: var(--cream);
+  }
+
   nav {
     flex-wrap: wrap;
     height: auto;
